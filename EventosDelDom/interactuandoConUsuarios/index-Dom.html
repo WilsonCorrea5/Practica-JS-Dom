@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando el DOM </title>
+</head>
+<body>
+
+    <style type="text/css"> 
+        body {background-color: rgb(97, 97, 97);
+              color: white;
+              font-family: monospace}
+        fieldset {
+            border-color: white ;} 
+        </style>
+
+        <h1>MANIPULANDO EL DOM</h1>
+    <fieldset>
+        <h1 class="tituloParrafo">Manipulando con onclick (Codigo JS dentro de HTML)</h1>
+        <p id="idp">ingresa valores aqui:</p>
+        <input id="entrada1" type="text" placeholder="escribe 1er valor" >
+        <input id="entrada2" type="text" placeholder="escribe 2do valor" >
+        <button id="idBoton" onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+    </fieldset>
+    <br> 
+    <fieldset>
+        <form id="form">
+            <h1 class="tituloParrafo">Manipulando con addEventListener</h1>
+        <p id="idp">ingresa valores aqui:</p>
+        <input id="entrada3" type="text" placeholder="escribe 1er valor" >
+        <input id="entrada4" type="text" placeholder="escribe 2do valor" >
+        <button type="button" id="idBoton2">Calcular</button> <!-- todos los <form> por defecto marcan el ultimo boton como tipo submit -->
+        <p id="resultado2"></p>
+        </form>
+    </fieldset>
+
+
+        <script src="./codigo-Dom.js"></script> <!-- ESTO ES IMPORTANTE. EL LLAMADO SCRIPT DEBE ESTAR AL FINAL-->
+        
+</body>
+</html>
