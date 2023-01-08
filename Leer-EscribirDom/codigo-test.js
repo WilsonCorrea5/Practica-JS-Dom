@@ -6,7 +6,7 @@ const entradaTexto = document.querySelector('input');
 
 //LEYENDO HTML DESDE JS
 console.log(tituloPagina);
-console.log({tituloPagina, parrafo})// de esta manera  enviamos varios argumentos a la consola.
+console.log({tituloPagina, parrafo})//de esta manera  enviamos varios argumentos a la consola.
 console.log(entradaTexto.value);//al colocar .value en el imput nos muestra por consola el contenido de dicho input.
 
 //ESCRIBIENDO HTML DESDE JS

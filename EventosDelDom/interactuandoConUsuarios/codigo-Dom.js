@@ -21,7 +21,7 @@ formulario = document.getElementById('form');
 btn2.addEventListener('click' , calcular2);//Otra posible solucion es agregar el addevenlistener al id formulario con el evento 'submit'
     
 
-function calcular2() { //<-- aqui agregar 'el evento 'event' como argumento
+function calcular2() { //<--aqui agregar 'el evento 'event' como argumento
     // event.preventDefault(); //y llamar esta funcion 
     const rs2 = (parseInt(input3.value) + parseInt(input4.value));
     result2.innerText ='resultado es: '+ rs2;
