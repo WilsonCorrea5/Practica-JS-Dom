@@ -1,4 +1,4 @@
-/* estilos generales */
+/* Main Styles */
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -17,7 +17,7 @@
     display: none;
   }
 
-/* estilos navBar general */
+/* Main NavBar Styles */
   nav {
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@
   }
   .mobileBurgerMenu {
     display: none;
+    cursor: pointer;
   }
   .logo {
     width: 100px;
@@ -38,6 +39,7 @@
     display: flex;
     align-items: center;
     height: 60px;
+    cursor: pointer;
   }
   .navbar-left {
     display: flex;
@@ -81,7 +83,8 @@
     justify-content: center;
     align-items: center;
   }
-/* estilos menu escritorio */
+
+  /* Main Desktop Styles */
   .desktop-menu {
     position: absolute;
     top: 60.3px;
@@ -120,8 +123,8 @@
     display: inline-block;
   }
 
-/* estilos menu mobile */
-.mobile-menu {
+/* Mobile Menu Styles */
+  .mobile-menu {
     padding: 24px;
     position: absolute;
     top: 60px;
@@ -155,7 +158,7 @@
     color: var(--hospital-green) !important;
   }
 
-/* estilos menu carrito */
+/* Main Styles cart Menu */
   aside {
     width: 360px;
     box-sizing: border-box;
@@ -164,7 +167,7 @@
     background: var(--white);
   }
   
-  /* Shopping Cart styles */
+/* Shopping Cart styles */
   #myOrderContainer{
     padding: 0 24px;
   }
@@ -236,7 +239,7 @@
     height: 50px;
   }
 
-  /* Product Detail Styles */
+/* Product Detail Styles */
   .product-detail-close {
     background: var(--white);
     width: 14px;
@@ -296,8 +299,8 @@
   } 
  
 
-/* estilos productos */
-.cards-container {
+/* Products Styles */
+  .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 26px;
@@ -374,4 +377,5 @@
     .mobile-menu{
         display: none;
     }
+    
   }
