@@ -5,7 +5,7 @@ const menuMobileBurg = document.querySelector('.mobileBurgerMenu');
 const mobileMenu = document.querySelector('.mobile-menu');
 
 const menuShoppingCart = document.querySelector('.navbar-shopping-cart');
-const asideShoppingCart = document.querySelector('.product-detail')
+const asideShoppingCart = document.querySelector('#myOrderContainer')
 
 
 menuEmail.addEventListener('click', showMenuUser);
@@ -36,7 +36,16 @@ productList.push({
     productPrice: 220,
     productimage: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 })
-
+productList.push({
+  productName:'Tv',
+  productPrice: 220,
+  productimage: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+})
+productList.push({
+  productName:'Tv',
+  productPrice: 220,
+  productimage: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+})
 function showerProducts(arrayProducts) {
   for (product of arrayProducts){
     const cardContainer = document.querySelector('.cards-container');
