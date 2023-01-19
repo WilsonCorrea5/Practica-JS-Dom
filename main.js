@@ -30,7 +30,7 @@ function showMenuMyOrder() {
     asideProductDetail.classList.add('inactive');
 }   
 
-//open product details.
+//open product details on aside.
 const asideProductDetail = document.querySelector('#productDetail');
 function openProductDetail() {
   asideProductDetail.classList.remove('inactive');
@@ -41,7 +41,7 @@ function openProductDetail() {
 
 }
 
-//close product details.
+//close product details on aside.
 const iconCloseAsideProductDetail = document.querySelector('.product-detail-close');
 iconCloseAsideProductDetail.addEventListener('click', closeProductDetail);
 function closeProductDetail() {
